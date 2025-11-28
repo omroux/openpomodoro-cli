@@ -3,6 +3,7 @@ module github.com/open-pomodoro/openpomodoro-cli
 go 1.16
 
 require (
+	github.com/adrg/xdg v0.5.3
 	github.com/go-logfmt/logfmt v0.6.0 // indirect
 	github.com/justincampbell/go-countdown v0.0.0-20180522133831-c8d99217f0f9
 	github.com/kr/logfmt v0.0.0-20210122060352-19f9bcb100e6 // indirect
@@ -12,7 +13,6 @@ require (
 	github.com/spf13/afero v1.8.2 // indirect
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.10.1
-	github.com/stretchr/testify v1.7.0
-	golang.org/x/sys v0.0.0-20220408201424-a24fb2fb8a0f // indirect
+	github.com/stretchr/testify v1.9.0
 	gopkg.in/ini.v1 v1.66.4 // indirect
 )

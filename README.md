@@ -289,12 +289,12 @@ say "Pomodoro started"
 ```
 
 ```shellsession
-$ chmod +x ~/.pomodoro/hooks/start
+$ chmod +x ~/.config/pomodoro/hooks/start
 ```
 
 ## Settings
 
-The Pomodoro CLI can be configured using a `settings` file in your configuration directory (`~/.pomodoro/settings`). The settings file uses the logfmt format.
+The Pomodoro CLI can be configured using a `settings` file in your configuration directory (`~/.config/pomodoro/settings`). The settings file uses the logfmt format.
 
 ### Available Settings
 
@@ -305,7 +305,7 @@ The Pomodoro CLI can be configured using a `settings` file in your configuration
 
 ### Example Settings File
 
-Create or edit `~/.pomodoro/settings`:
+Create or edit `~/.config/pomodoro/settings`:
 
 ```
 daily_goal=8
